@@ -11,8 +11,6 @@ public class Main {
         String nome = sc.nextLine();
         System.out.println("Qual o numero do seu CPF?");
         String cpf = sc.nextLine();
-        System.out.println("Qual o seu telefone?");
-        String telefone = sc.nextLine();
         Random random = new Random();
         long nconta = 1000000000L + (long)(random.nextDouble() * 9000000000L);
 
